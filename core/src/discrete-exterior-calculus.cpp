@@ -43,7 +43,7 @@ namespace surface {
 SparseMatrix<double> VertexPositionGeometry::buildHodgeStar0Form() const {
 
     // TODO
-    return identityMatrix<double>(1); // placeholder
+    return identityMatrix<double>(mesh.nVertices()); // placeholder
 }
 
 /*
